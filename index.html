@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup_Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+    <div class = 'page'>
+        <div class = 'leftcontainer'>
+            <div class = 'img_text'></div>
+            <img src="" alt="">
+            <div class = 'copyright'></div>
+        </div>
+        <div class = 'rightcontainer'>
+            <div class = 'top_content'>
+                <div class = top_subcontent></div>
+            </div>
+            <div class = "middle_right"> 
+            <h1>Let's do this!</h1>
+            <div class = 'form'>
+                <ul>
+                    <li>
+                        <label for="FIRST NAME">
+                            <input type="text" id="first_name" name="first_name" pattern="[a-zA-Z]+"/>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="EMAIL">
+                            <input type="text" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="PASSWORD">
+                            <input type="text" id="pwd" name="pwd" pattern="(?=.*[0-9])(?=.*[!@#$%^&*()_+])[a-zA-Z0-9!@#$%^&*()_+]{10}$"/>
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label for="LAST NAME">
+                            <input type="text" id="last_name" name="last_name" pattern="[a-zA-Z]+"/>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="PHONE NUMBER">
+                            <input type="text" id="phone_number" name="phone_number" pattern="(\+\d{2})?\d{9}"/>
+                        </label>
+                    </li>
+                    <li>
+                        <label for="CONFIRM PASSWORD">
+                            <input type="text" id="confirmpwd" name="confirmpwd" pattern="(?=.*[0-9])(?=.*[!@#$%^&*()_+])[a-zA-Z0-9!@#$%^&*()_+]{10}$"/>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <div class = "bottom-right">
+            <button class = "create_button">Create Account</button>
+          </div>
+        </div>
 
+    </div>
+</body>
