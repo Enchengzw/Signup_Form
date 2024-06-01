@@ -44,10 +44,11 @@ html, body {
 .top {
 	width: 100%;
 	height: 40%;
-	background-color: rgb(228, 227, 227);
+	background-color: rgb(238, 238, 238);
+	padding: calc(10px + 1vw);
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: start;
 }
 
 .top_content {
@@ -60,11 +61,12 @@ html, body {
 .middle_right {
 	background-color: white;
 	width: 100%;
-	height: 30%;
+	height: 35%;
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-	margin: calc(10px + 1vw);
+	padding: calc(10px + 1vw);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .form {
@@ -96,8 +98,9 @@ input {
 	height: calc(15px + 0.5vh);
 	width: calc(200px + 4vw);
 	border-radius: 3px;
-	border-color: antiquewhite;
-	border-width: 1px;
+	border-width: 0.5px;
+	border-color: lightgray;
+	border-style: solid;
 }
 
 .error-message {
@@ -112,3 +115,25 @@ input:invalid + .error-message{
 	font-size: 12px;
 }
 
+.bottom {
+	display: flex;
+	flex-direction: column;
+	padding: calc(10px + 1vw);
+}
+
+.create_button {
+	background-color: lightgreen;
+	height: calc(30px + 2vh);
+	width: calc(150px + 4vw);
+	border-radius: 5px;
+	border: 1px none black;
+	margin-bottom: calc(5px + 3vh);
+}
+
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: lightgreen;
+}
