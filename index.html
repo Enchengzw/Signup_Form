@@ -19,44 +19,44 @@
 			<div class = 'top_content'>This is not a real online service!
 									You know you need somehting like this 
 									in your life to help you realize your
-									deepest dreams. Sign up now to get started.</div>
-			<div class = top_subcontent>You know you want to</div>
+									deepest dreams. Sign up now to get started.<br>
+									<br>You know you want to.</div>
 			</div>
 			<div class = "middle_right"> 
 			<h1>Let's do this!</h1>
 			<div class = 'form'>
 				<ul>
 					<li>
-						<label for="FIRST NAME">FIRST NAME
-							<input type="text" id="first_name" name="first_name" pattern="[a-zA-Z]+"/>
-						</label>
+						<label for="first_name">FIRST NAME</label>
+						<input type="text" id="first_name" name="first_name" pattern="[a-zA-Z]+"/>
+						<span class="error-message">Please enter a only alphabetic characters.</span>
 					</li>
 					<li>
-						<label for="EMAIL">EMAIL
-							<input type="text" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
-						</label>
+						<label for="EMAIL">EMAIL</label>
+						<input type="email" id="email" name="email"/>
+						<span class="error-message">Please enter a valid email address.</span>
 					</li>
 					<li>
-						<label for="PASSWORD">PASSWORD
-							<input type="text" id="pwd" name="pwd" pattern="(?=.*[0-9])(?=.*[!@#$%^&*()_+])[a-zA-Z0-9!@#$%^&*()_+]{10}$"/>
-						</label>
+						<label for="pwd">PASSWORD</label>
+						<input type="password" id="pwd" name="pwd" pattern="(?=.*[0-9])(?=.*[!@#$%^&*()_+])[a-zA-Z0-9!@#$%^&*()_+]{10}">
+						<span class="error-message">Requires 1 number character, 1 special character, and exactly a length of 10</span>
 					</li>
 				</ul>
 				<ul>
 					<li>
-						<label for="LAST NAME">LAST_NAME
-							<input type="text" id="last_name" name="last_name" pattern="[a-zA-Z]+"/>
-						</label>
+						<label for="LAST NAME">LAST_NAME</label>
+						<input type="text" id="last_name" name="last_name" pattern="[a-zA-Z]+"/>
+						<span class="error-message">Please enter a only alphabetic characters.</span>
 					</li>
 					<li>
-						<label for="PHONE NUMBER">PHONE NUMBER
-							<input type="text" id="phone_number" name="phone_number" pattern="(\+\d{2})?\d{9}"/>
-						</label>
+						<label for="PHONE NUMBER">PHONE NUMBER</label>
+						<input type="text" id="phone_number" name="phone_number" pattern="(\+\d{2})?\d{9}"/>
+						<span class="error-message">Please enter 9 number characters.</span>
 					</li>
 					<li>
-						<label for="CONFIRM PASSWORD">CONFIRM PASSWORD
-							<input type="text" id="confirmpwd" name="confirmpwd" pattern="(?=.*[0-9])(?=.*[!@#$%^&*()_+])[a-zA-Z0-9!@#$%^&*()_+]{10}$"/>
-						</label>
+						<label for="CONFIRM PASSWORD">CONFIRM PASSWORD</label>
+						<input type="text" id="confirmpwd" name="confirmpwd" pattern="(?=.*[0-9])(?=.*[!@#$%^&*()_+])[a-zA-Z0-9!@#$%^&*()_+]{10}"/>
+						<span class="error-message">Requires 1 number characters, 1 special character and exactly a length of 10</span>
 					</li>
 				</ul>
 			</div>
